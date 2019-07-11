@@ -1,0 +1,104 @@
+scout:
+  iconItem: WOODEN_SWORD
+  permission: start.scout
+  name: '&cСкаут'
+  description:
+    - "&7Быстрый, маневренный, силен в PvP"
+    - "&7Но слаб в PvE. Имеет мало брони"
+    - " "
+    - "&7Набор содержит:"
+    - "&e> &7Меч скаута"
+    - "&e> &7Куртка скаута"
+    - "&e> &7Заклинание: &eHeavy Charge &8x2"
+    - "&e> &bЗелье скорости"
+    - "&7 "
+    - "&e> &7Камешки &8x32"
+    - "&e> &7Сломанный топор"
+    - "&e> &7Некачественные бинты &8x2"
+    - "&e> &7Жаренная свинина &8x16"
+    - "&e> &7Дубовые бревна &8x8"
+    - "&e> &7Факела &8x16"
+    - "&7 "
+    - "&eНажмите, чтобы выбрать"
+  equipment:
+    items:
+      - MMOITEMS:SWORD:SCOUT_SWORD:1 #MMOITEMS:Type:Item:Ammount
+      - MMOITEMS:TOOL:STARTER_AXE:1
+      - MMOITEMS:CONSUMABLE:SCOUT_SCROLL:2
+      - MMOITEMS:CONSUMABLE:SCOUT_SPEED_POTION:1
+      - MMOITEMS:CONSUMABLE:BINT:2
+      - MMOITEMS:CONSUMABLE:LITTLE_STONE:32
+      - COOKED_PORKCHOP:16 #Item:Ammount
+      - OAK_LOG:8
+      - TORCH:16
+    chestplate: MMOITEMS:ARMOR:SCOUT_CHESTPLATE:1
+archer:
+  iconItem: BOW
+  permission: start.archer
+  name: '&cЛучник'
+  description:
+    - "&7Глаз - алмаз! One shot - one kill"
+    - "&7Силен на дальних дистанциях"
+    - " "
+    - "&7Набор содержит:"
+    - "&e> &7Надломанный лук"
+    - "&e> &7Шапка лучника"
+    - "&e> &7Заклинание: &eFreezing Curse &8x2"
+    - "&e> &7Стрелы &8x48"
+    - "&e> &7Стрелы вреда &8x12"
+    - "&7 "
+    - "&e> &7Камешки &8x32"
+    - "&e> &7Сломанный топор"
+    - "&e> &7Некачественные бинты &8x2"
+    - "&e> &7Жаренная свинина &8x16"
+    - "&e> &7Дубовые бревна &8x8"
+    - "&e> &7Факела &8x16"
+    - "&7 "
+    - "&eНажмите, чтобы выбрать"
+  equipment:
+    items:
+      - MMOITEMS:BOW:ARCHER_BOW:1 #MMOITEMS:Type:Item:Ammount
+      - ARROW:48
+      - TIPPED_ARROW:12
+      - MMOITEMS:TOOL:STARTER_AXE:1
+      - MMOITEMS:CONSUMABLE:ARCHER_SCROLL:2
+      - MMOITEMS:CONSUMABLE:BINT:2
+      - MMOITEMS:CONSUMABLE:LITTLE_STONE:32
+      - COOKED_PORKCHOP:16 #Item:Ammount
+      - OAK_LOG:8
+      - TORCH:16
+    helmet: MMOITEMS:ARMOR:ARCHER_HELMET:1
+hunter:
+  iconItem: STICK
+  permission: start.hunter
+  name: '&cОхотник'
+  description:
+    - "&7Ауууу! Зов природы делает Вас сильнее!"
+    - "&7Слаб в PvP, силен в PvE"
+    - " "
+    - "&7Набор содержит:"
+    - "&e> &7Охотничья дубинка"
+    - "&e> &7Охотничья куртка"
+    - "&e> &7Охотничьи штаны"
+    - "&e> &7Заклинание: &eFire Meteor &8x2"
+    - "&7 "
+    - "&e> &7Камешки &8x32"
+    - "&e> &7Сломанный топор"
+    - "&e> &7Некачественные бинты &8x2"
+    - "&e> &7Жаренная свинина &8x16"
+    - "&e> &7Дубовые бревна &8x8"
+    - "&e> &7Факела &8x16"
+    - "&7 "
+    - "&eНажмите, чтобы выбрать"
+  equipment:
+    items:
+      - MMOITEMS:SWORD:HUNTER_DUBINKA:1 #MMOITEMS:Type:Item:Ammount
+      - MMOITEMS:TOOL:STARTER_AXE:1
+      - MMOITEMS:CONSUMABLE:HUNTER_SCROLL:2
+      - MMOITEMS:CONSUMABLE:BINT:2
+      - MMOITEMS:CONSUMABLE:LITTLE_STONE:32
+      - COOKED_PORKCHOP:16 #Item:Ammount
+      - OAK_LOG:8
+      - TORCH:16
+    chestplate: MMOITEMS:ARMOR:HUNTER_CHESTPLATE:1
+    leggings: MMOITEMS:ARMOR:HUNTER_LEGGINGS:1

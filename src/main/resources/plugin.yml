@@ -1,0 +1,6 @@
+name: KitStart
+version: ${project.version}
+main: ru.brainrtp.kitstart.KitStart
+api-version: 1.13
+softdepend: [HeadDatabase]
+authors: [BrainRTP]

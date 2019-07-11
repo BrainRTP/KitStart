@@ -1,0 +1,34 @@
+prefix: "&e[&6Стартовый Набор&e] &6> "
+permissionDeny: "&cНет прав."
+kitSelected: "&eВы выбрали набор: %s"
+reloadSuccess: "&aПлагин перезагружен!"
+# ===== Menu Message =====
+menuTitle: "&8Выберите стартовый набор"
+kickMessage: "&cПриходите к нам еще!"
+infoButton:
+  v: 1631
+  type: LEGACY_SKULL_ITEM
+  meta:
+    ==: ItemMeta
+    meta-type: SKULL
+    display-name: §eИнформационная иконка
+    lore:
+      - 'Линия #1'
+      - '§eЦветная линия §c#2'
+    ItemFlags:
+      - HIDE_ATTRIBUTES
+    Damage: 3
+    internal: H4sIAAAAAAAAAE2OzU6DQBhFP01MkPgYbkkGBqgsGyl0SAdsy9+wozAIZagNBVN4Kh9R3Hl3J/fc5MoAMrwc21GIj/6ragSX4JGU8Ip0pFuFhZQSc0vRTU1VrCKvFPSXPM9Xb5omg7yMrrwfGn57Bmng92Hs+U0GgAcJnuJcjBx++OShLK1RmXqimIi5cHhEIiDn64pc4un0TkzSLf12be4m659rDHliCIa9Orvsx1MXox0+CL49qEUXfbPOadm8RoG7wUyLcOAynLlO689eTe2yZSHBmf2pLo5BQ6YHtiP8MJpoF4ss2d+z0G9ZwiYaljWd6zNNNk2VqtbyHn4BpOD2xBgBAAA=
+exitButton:
+  v: 1631
+  type: LEGACY_SKULL_ITEM
+  meta:
+    ==: ItemMeta
+    meta-type: SKULL
+    display-name: §cВыйти с сервера
+    lore:
+      - §8Кастомный лор, если нужен.
+    ItemFlags:
+      - HIDE_ATTRIBUTES
+    Damage: 3
+    internal: H4sIAAAAAAAAAE2PzU6DQBzE/5qYIPExvJIs33LoobFKl3S30vJRuFFY0sIuNhQq63P5gOLNOc3kN3MYFUCFp307cv7Rf9ZnzhS4xxU8IwtZXukhrTKZp1mOoWteWdQa+lNRFO6L4aqgzqML64czuz6CMrBpGHt2VQHgToGHpOAjgx8mA5QfTqg6BLyU2JlztEd8i5uLi7tEHl+xg8XM10tnI71/XXsoUptnZnDKu3A8igRtzB1n651eiviWidDYpvEXFbGe++9tLkKL+rNvaEtSIkm0NIiRSRrF31kTiCxqEU0TTtIQ5atyolEgcp/odIX1TJCJiDcbd7pXh4vF/AB+ARBMVeQcAQAA
